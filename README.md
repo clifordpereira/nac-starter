@@ -1,23 +1,16 @@
-# Nuxt Minimal Starter
+# nuxt-auto-crud Minimal Starter
 
-Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
-
-## Setup
-
-Make sure to install dependencies:
+## Installation
 
 ```bash
-# npm
-npm install
+npx nuxi init -t gh:clifordpereira/nac-starter my-app
+cd my-app
+```
 
-# pnpm
-pnpm install
+## Generate migrations
 
-# yarn
-yarn install
-
-# bun
-bun install
+```bash
+nuxt db generate
 ```
 
 ## Development Server
@@ -25,51 +18,31 @@ bun install
 Start the development server on `http://localhost:3000`:
 
 ```bash
-# npm
-npm run dev
-
-# pnpm
-pnpm dev
-
-# yarn
-yarn dev
-
-# bun
-bun run dev
+nuxt dev
 ```
 
-## Production
+## Experiment with sample schema
 
-Build the application for production:
+You may use `curl` or any API client (such as `postman` or `rapid api`) to experiment with these endpoints.
 
-```bash
-# npm
-npm run build
+| Action | HTTP Method | Endpoint | Example Result |
+| --- | --- | --- | --- |
+| **Fetch All** | `GET` | `/api/_nac/users` | List of all users (paginated) |
+| **Create** | `POST` | `/api/_nac/users` | New user record added |
+| **Fetch One** | `GET` | `/api/_nac/users/1` | Details of user with `id: 1` |
+| **Update** | `PATCH` | `/api/_nac/users/1` | Partial update to user `1` |
+| **Delete** | `DELETE` | `/api/_nac/users/1` | User `1` hard deleted from DB |
 
-# pnpm
-pnpm build
 
-# yarn
-yarn build
+## Add more schemas
 
-# bun
-bun run build
-```
+You can add more schemas in `server/db/schema.ts` or `server/db/schema/index.ts` file.
+Please remember to run `nuxt db generate` after adding new schema.
 
-Locally preview production build:
+## AutoCrud Configuration
 
-```bash
-# npm
-npm run preview
+Example AutoCrud configuration is provided in `nuxt.config.example.ts` file. You can copy the necessary configuration from it to `nuxt.config.ts` and modify it as per your requirements.
 
-# pnpm
-pnpm preview
-
-# yarn
-yarn preview
-
-# bun
-bun run preview
-```
-
-Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
+## Thank You
+Best wishes for you coding career.
+Please feel free to give your valuable feedback.
