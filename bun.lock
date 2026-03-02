@@ -9,7 +9,7 @@
         "@nuxthub/core": "0.10.6",
         "drizzle-orm": "^1.0.0-beta.15-859cf75",
         "nuxt": "^4.3.1",
-        "nuxt-auto-crud": "^2.1.3",
+        "nuxt-auto-crud": "^2.2.0",
         "vue": "^3.5.28",
         "vue-router": "^4.6.4",
       },
@@ -1122,7 +1122,7 @@
 
     "nuxt": ["nuxt@4.3.1", "", { "dependencies": { "@dxup/nuxt": "^0.3.2", "@nuxt/cli": "^3.33.0", "@nuxt/devtools": "^3.1.1", "@nuxt/kit": "4.3.1", "@nuxt/nitro-server": "4.3.1", "@nuxt/schema": "4.3.1", "@nuxt/telemetry": "^2.7.0", "@nuxt/vite-builder": "4.3.1", "@unhead/vue": "^2.1.3", "@vue/shared": "^3.5.27", "c12": "^3.3.3", "chokidar": "^5.0.0", "compatx": "^0.2.0", "consola": "^3.4.2", "cookie-es": "^2.0.0", "defu": "^6.1.4", "destr": "^2.0.5", "devalue": "^5.6.2", "errx": "^0.1.0", "escape-string-regexp": "^5.0.0", "exsolve": "^1.0.8", "h3": "^1.15.5", "hookable": "^5.5.3", "ignore": "^7.0.5", "impound": "^1.0.0", "jiti": "^2.6.1", "klona": "^2.0.6", "knitwork": "^1.3.0", "magic-string": "^0.30.21", "mlly": "^1.8.0", "nanotar": "^0.2.0", "nypm": "^0.6.5", "ofetch": "^1.5.1", "ohash": "^2.0.11", "on-change": "^6.0.2", "oxc-minify": "^0.112.0", "oxc-parser": "^0.112.0", "oxc-transform": "^0.112.0", "oxc-walker": "^0.7.0", "pathe": "^2.0.3", "perfect-debounce": "^2.1.0", "pkg-types": "^2.3.0", "rou3": "^0.7.12", "scule": "^1.3.0", "semver": "^7.7.4", "std-env": "^3.10.0", "tinyglobby": "^0.2.15", "ufo": "^1.6.3", "ultrahtml": "^1.6.0", "uncrypto": "^0.1.3", "unctx": "^2.5.0", "unimport": "^5.6.0", "unplugin": "^3.0.0", "unplugin-vue-router": "^0.19.2", "untyped": "^2.0.0", "vue": "^3.5.27", "vue-router": "^4.6.4" }, "peerDependencies": { "@parcel/watcher": "^2.1.0", "@types/node": ">=18.12.0" }, "optionalPeers": ["@parcel/watcher", "@types/node"], "bin": { "nuxi": "bin/nuxt.mjs", "nuxt": "bin/nuxt.mjs" } }, "sha512-bl+0rFcT5Ax16aiWFBFPyWcsTob19NTZaDL5P6t0MQdK63AtgS6fN6fwvwdbXtnTk6/YdCzlmuLzXhSM22h0OA=="],
 
-    "nuxt-auto-crud": ["nuxt-auto-crud@2.1.3", "", { "dependencies": { "@nuxt/kit": "^4.3.1", "drizzle-zod": "^0.8.3", "pluralize": "^8.0.0", "zod": "^4.3.6" }, "peerDependencies": { "@libsql/client": "^0.17.0", "@nuxthub/core": "^0.10.6", "drizzle-kit": ">=1.0.0-beta.0", "drizzle-orm": ">=1.0.0-beta.0", "nuxt": "^4.3.0" } }, "sha512-+xVJYlKc5QnZx4NynhXmjq3vDk7p/FmiXw/O6PQTkHUApoBNwflvlXyHep6yguK4JK/iRMNYBmMZOc7omeyLxg=="],
+    "nuxt-auto-crud": ["nuxt-auto-crud@2.2.0", "", { "dependencies": { "@nuxt/kit": "^4.3.1", "drizzle-zod": "^0.8.3", "pluralize": "^8.0.0", "zod": "^4.3.6" }, "peerDependencies": { "@libsql/client": "^0.17.0", "@nuxthub/core": "^0.10.6", "drizzle-kit": ">=1.0.0-beta.0", "drizzle-orm": ">=1.0.0-beta.0", "nuxt": "^4.3.0" } }, "sha512-v2Jipw4rV3TENmAu6MwJJpfA4JvX+SicE3SOIs7kOPHmaUPzdj8FjLJZ60CdOm6CiL6UgERa8Y+ye919UFPegg=="],
 
     "nypm": ["nypm@0.6.5", "", { "dependencies": { "citty": "^0.2.0", "pathe": "^2.0.3", "tinyexec": "^1.0.2" }, "bin": { "nypm": "dist/cli.mjs" } }, "sha512-K6AJy1GMVyfyMXRVB88700BJqNUkByijGJM8kEHpLdcAt+vSQAVfkWWHYzuRXHSY6xA2sNc5RjTj0p9rE2izVQ=="],
 
