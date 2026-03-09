@@ -11,6 +11,7 @@ export default defineNuxtConfig({
   },
   // default autoCrud config
   autoCrud: {
+    statusFiltering: false,
     realtime: false, // set it to true if you want to enable realtime updates
     auth: {
       authentication: false, // set it to true when you use authentication
@@ -21,9 +22,9 @@ export default defineNuxtConfig({
     publicResources: {
       users: ['id', 'name', 'email'] // use blank array to make all fields public
     }, 
-    apiHiddenFields: ['password'], // Hide the fields which you don't want to expose in API response
-    formHiddenFields: ['password'], // Hide the fields which you don't want user to edit
-    agenticToken: '', // If you want to use 'api/_nac/_meta' for agentic usage, set a 32+ character token here
+    apiHiddenFields: ['createdAt'], // Hide the fields which you don't want to expose in API response
+    formHiddenFields: ['avatar'], // Hide the fields which you don't want user to edit
+    formReadOnlyFields: ['status'], // Make the fields readonly
     nacEndpointPrefix: '/api/_nac', // don't change it yourself. You can use `nacEndpointPrefix` to hit nac endpoints
     schemaPath: 'server/db/schema', // change it if and only if nuxt team changes the default schema path
   },

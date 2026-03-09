@@ -1,4 +1,5 @@
 # nuxt-auto-crud Minimal Starter
+A pre configured nuxt-auto-crud starter with sqlite database.
 
 ## Installation
 
@@ -42,6 +43,9 @@ Please remember to run `nuxt db generate` after adding new schema.
 ## AutoCrud Configuration
 
 Example AutoCrud configuration is provided in `nuxt.config.example.ts` file. You can copy the necessary configuration from it to `nuxt.config.ts` and modify it as per your requirements.
+
+For more details, please visit [nuxt-auto-crud GitHub Repo](https://github.com/clifordpereira/nuxt-auto-crud).
+Or npm package [nuxt-auto-crud](https://www.npmjs.com/package/nuxt-auto-crud).
 
 ## Thank You
 Best wishes for you coding career.
